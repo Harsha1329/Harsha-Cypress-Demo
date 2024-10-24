@@ -8,6 +8,7 @@ describe('Css Locators', () => {
         cy.url().should('include',"setup+my+device").and('include',"www.google.com").and('not.contain','testt')
        // cy.get('.srp')
         //   .should('contain', 'Tool')   
+        //sample
         
     })
 
